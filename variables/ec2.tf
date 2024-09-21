@@ -1,3 +1,9 @@
+# 1. command line
+# 2. terraform.tfvars
+# 3. environment variables, TF_VAR_your_variable_name
+# 4. default
+# 5. prompt
+
 resource "aws_security_group" "allow_ssh_terraform" {
   name =var.sg_name
   description = var.sg_description

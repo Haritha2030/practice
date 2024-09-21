@@ -5,10 +5,10 @@ variable "ami_id"{
 }
 variable "instance_type" {
     type    = string
-    default = "t3.micro"
+    #default = "t3.micro"
 }
 variable "tags" {
-    type =map
+    type =map #optional
     default = {
         Name = "backend"
         Project = "expense"
